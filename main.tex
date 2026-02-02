@@ -1,0 +1,187 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Quentin DIDIER} \\ \vspace{1pt}
+    Technical Project Manager \& Transformation Lead  \\
+    — \emph{I help teams debug complex technical and organizational problems} — \\
+    Paris, France — open to Remote \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +33 6 61 20 19 15 ~ 
+    \href{mailto:quentin.didier708@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{quentin.didier708@gmail.com} }
+    \href{https://www.linkedin.com/in/quentin-didier-521376197/}{\raisebox{-0.2\height}\faLinkedin\ \underline{LinkedIn}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Freelance}{September 2023 - Now}
+      {}{} 
+      \resumeItemListStart
+      \vspace{-14pt}
+        % --- Project Consulting ---
+    \resumeItem{\textbf{Project Consulting} — Improved decision-making and execution systems in growing organizations and technical teams by diagnosing coordination failures, unclear ownership and goals.}
+    \resumeItem{Audited a policy-oriented research agenda, clarifying research priorities, theory of change, and evaluation criteria.}
+    \resumeItem{Guided an indie game developer on game design and audience engagement: iterating on game loops, level design, and content distribution strategy.}
+
+    % --- Internal Tools & Operations Software ---
+    \resumeItem{\textbf{Internal Tools \&  Software development} —Designed and deployed internal execution systems, replacing manual workflows with structured tools (Notion, Airtable, Power Apps, Google Apps, custom web apps)}
+    \resumeItem{Automated workflows over structured datasets (contacts, partners, grants, projects), reducing manual handling and inconsistencies.}
+    \resumeItem{Built an internal budgeting, invoicing, and purchase-order management system for a small organization.}
+    \resumeItem{Delivered small-to-mid scale web development projects (Next.js, TypeScript), including websites and automated accounting and reporting tools for private tutors.}
+
+     
+      \resumeItemListEnd
+      \vspace{-4pt}
+
+    \resumeSubheading
+      {Projects Director \& AI Safety Unit Director}{July 2022 -- September 2023}
+      {Collectif Effisciences}{Paris, France}
+      \resumeItemListStart
+        \resumeItem{\textbf{Launched \& organized a wide portfolio of 30+ projects} (Research programs, courses, conferences, etc) in artificial intelligence security and biosecurity, in France and Europe, managing a team of around twenty collaborators.}
+        \resumeItem{\textbf{Shaped organizational strategy} at org scale and for each units (Climate Change, Biosecurity, transversal projects), restructured the organization's communication and task management systems.}
+        \resumeItem{\textbf{Organized 3 large hackathons with 150+ participants} (Ecole 42, Collège de France, Entrepreneur First) and a number of smaller hackathons with various partners, research groups, conferences, developing collaborations with public and private actors (UNESCO, Institut Pasteur, Meta, ENS, etc).}
+        \resumeItem{\textbf{Designed \& delivered Master's level classes at ENS Ulm} and Saclay (MVA Master's program), designed and taught technical AI safety curricula to top performing students, delivered talks and workshops.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Research Intern - Theoretical frameworks for robotics}{Summer 2019}
+      {ISIR - Sorbonne Université}{Paris, France}
+      \resumeItemListStart
+        \resumeItem{Theoretical analysis of various learning methods for robotics (Novelty Search, Goal Exploration Processes, MAP-Elites).}
+%        \resumeItem{Implementation in Python}
+      \resumeItemListEnd
+\begin{comment}
+    \resumeSubheading
+      {Research Intern - Statistical learning}{Summer 2018}
+      {LPSM - Université Paris Diderot}{Paris, France}
+      \resumeItemListStart
+        \resumeItem{Explored unsupervised Random Forest methods on single-cell gene expression data for tumor classification.
+}
+        \resumeItem{Implementation in Python and R.}
+      \resumeItemListEnd
+\end{comment}
+    \resumeSubheading
+      {Board Member - Secretary General}{2022 - 2023}
+      {Altruisme Efficace France}{Paris, France}
+      \resumeItemListStart
+        \resumeItem{Defined annual priorities and strategic initiatives for the organization’s missions in global health, pandemic preparedness, animal welfare and artificial intelligence safety.}
+        \resumeItem{Led organization's operations, managing a remote team of 2 employees and 40+ active volunteers, handled staff recruitment. Organized biannual retreats, weekly events, ran an academic fellowship}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {Private teacher}{2021 - Now}
+      {Mathematics, Computer Science, Physics, Biology}{}
+      \resumeItemListStart
+        \resumeItem{Private tutoring for about 30 students over 4 years ranging from primary school to Master's level.}
+      \resumeItemListEnd
+      
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Double Master's degree, first year: Data Science and Cryptography}{2021 -- 2023}
+      {Paused degree after the first year to build Effisciences full time.}{Université de Paris}
+      \vspace{-3pt}
+    \resumeSubheading
+      {Bachelor's degree in Computer Science - Université de Besançon}{2020 -- 2021}
+      {}{}
+      \vspace{-16pt}
+    \resumeSubheading
+      {Master's degree in Applied Mathematics, first year - Université Paris V}{2019 -- 2020}
+      {}{}
+      \vspace{-16pt}
+    \resumeSubheading
+      {Bachelor's Degree in Mathematics - Université de Strasbourg}{2015 -- 2018}
+      {}{}
+      \vspace{-20pt}
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{Programming}{: Python, C/C++, HTML/CSS/SCSS, JavaScript, R, Rust (Basic)} \\
+     \textbf{Languages}{: French (Native), English (Fluent), Spanish (B1), Mandarin (A2), German (A2)}
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+ 
+
+%-----------INTERESTS-----------
+\section{Interests}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{Scientific}{: History of Science, Physics, Biology, Economics, Finance, History, Cognitive Sciences, Epistemology} \\
+     \textbf{Arts \& Activities}{: Literature (Russian, SF, Poetry), Game of Go, Guitar, Weightlifting, Knitting, Juggling, Meditation, Dancing, Watercolor, Violin, Analog Photography}
+    }}
+ \end{itemize}
+
+\end{document}      
