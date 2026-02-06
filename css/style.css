@@ -94,7 +94,7 @@ p:last-child {
 
 /* Hero Section */
 .hero {
-    padding: 4rem 0 3rem;
+    padding: 4rem 0 1.5rem;
     text-align: center;
     border-bottom: 1px solid var(--color-border);
 }
@@ -112,7 +112,6 @@ p:last-child {
 /* Intro Section */
 .intro {
     padding: 2.5rem 0;
-    border-bottom: 1px solid var(--color-border);
 }
 
 .intro p {
