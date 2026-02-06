@@ -11,7 +11,7 @@ Redesign the consulting website with a warmer, more personal aesthetic inspired 
 |----------|----------|
 | Background map | Cantino planisphere (warm colors, aged parchment) |
 | Typography | Serif for headings |
-| Domain | To be purchased (see instructions below) |
+| Domain | quentin-didier.com (Cloudflare) |
 
 ---
 
@@ -41,12 +41,12 @@ Redesign the consulting website with a warmer, more personal aesthetic inspired 
 
 ---
 
-### 3. Custom Domain Setup (Do Later)
+### 3. Custom Domain Setup
 
-- [ ] **3.1** Purchase domain
-- [ ] **3.2** Configure DNS
-- [ ] **3.3** Add CNAME file to repository
-- [ ] **3.4** Enable HTTPS in GitHub Pages settings
+- [x] **3.1** Purchase domain (quentin-didier.com on Cloudflare)
+- [x] **3.2** Configure DNS (A records + CNAME for www)
+- [x] **3.3** Add CNAME file to repository
+- [x] **3.4** Enable HTTPS in GitHub Pages settings
 
 #### Domain Purchase Instructions
 
