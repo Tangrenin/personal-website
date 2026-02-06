@@ -64,56 +64,11 @@ Redesign the consulting website with a warmer, more personal aesthetic inspired 
 - [x] **3.3** Add CNAME file to repository
 - [x] **3.4** Enable HTTPS in GitHub Pages settings
 
-#### Domain Purchase Instructions
-
-**Recommended registrar:** [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/) - at-cost pricing, no markup, includes free DNS and SSL.
-
-**Steps:**
-
-1. **Create Cloudflare account** at cloudflare.com (free)
-
-2. **Search for your domain** at dash.cloudflare.com → Domain Registration → Register Domain
-   - Try: `quentindidier.com`, `quentindidier.fr`, or `qdidier.com`
-   - `.com` typically costs ~$10/year
-   - `.fr` requires being in EU (you qualify, being in France)
-
-3. **Purchase the domain** - follow checkout process
-
-4. **Configure DNS for GitHub Pages** - In Cloudflare DNS settings, add:
-   ```
-   Type: CNAME
-   Name: @
-   Target: tangrenin.github.io
-   ```
-   And for www:
-   ```
-   Type: CNAME
-   Name: www
-   Target: tangrenin.github.io
-   ```
-
-5. **Add CNAME file to repo** - Create a file called `CNAME` (no extension) containing just:
-   ```
-   quentindidier.com
-   ```
-   (replace with your actual domain)
-
-6. **Enable in GitHub Pages** - Settings → Pages → Custom domain → enter your domain → Save
-
-7. **Wait for DNS propagation** (can take up to 24h, usually faster)
-
-8. **Enable HTTPS** - Once DNS propagates, check "Enforce HTTPS" in GitHub Pages settings
-
-**Alternative registrars:**
-- Namecheap - good prices, easy interface
-- Google Domains - simple, integrates with Google services
-- OVH - good for .fr domains, French company
-
----
-
 ## Reference
 
-**Inspiration:** [simonsarris.com](https://simonsarris.com/)
+**Inspiration:** 
+- [simonsarris.com](https://simonsarris.com/)
+- [https://ulyssepence.com/](https://ulyssepence.com/)
 
 **Assets:**
 - `assets/Cantino_planisphere_(1502).jpg` (selected background)
