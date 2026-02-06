@@ -35,9 +35,25 @@ Redesign the consulting website with a warmer, more personal aesthetic inspired 
 ### 2. Final Polish
 
 - [ ] **2.1** Test responsiveness on mobile
+  - [ ] Check content box layout on narrow screens
+  - [ ] Verify text sizes are readable on phone
+  - [ ] Test touch targets (buttons) are large enough
+  - [ ] Check background image behavior on mobile (may need adjustment)
+
 - [ ] **2.2** Ensure text remains readable
-- [ ] **2.3** Optimize map image file size for fast loading
-- [ ] **2.4** Commit and deploy
+  - [ ] Check color contrast ratios meet WCAG AA (4.5:1 for body text)
+  - [ ] Verify line lengths aren't too long/short
+  - [ ] Ensure sufficient spacing between elements
+
+- [x] **2.3** Optimize map image file size for fast loading
+  - Before: **36MB**, 10643x4998px
+  - After: **472KB**, 1800x845px (98.7% reduction!)
+  - Subtasks:
+    - [x] Resize to 1800px width
+    - [x] Compress with quality 75%
+    - [x] Test visual quality after compression
+
+- [ ] **2.4** Final commit and deploy
 
 ---
 
