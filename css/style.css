@@ -33,7 +33,7 @@ html {
 
 /* Fixed map background */
 body {
-    font-family: var(--font-sans);
+    font-family: var(--font-serif);
     color: var(--color-text);
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
@@ -112,6 +112,7 @@ p:last-child {
 /* Intro Section */
 .intro {
     padding: 2.5rem 0;
+    border-bottom: none;
 }
 
 .intro p {
