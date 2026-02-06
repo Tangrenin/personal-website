@@ -34,16 +34,16 @@ Redesign the consulting website with a warmer, more personal aesthetic inspired 
 
 ### 2. Final Polish
 
-- [ ] **2.1** Test responsiveness on mobile
-  - [ ] Check content box layout on narrow screens
-  - [ ] Verify text sizes are readable on phone
-  - [ ] Test touch targets (buttons) are large enough
-  - [ ] Check background image behavior on mobile (may need adjustment)
+- [x] **2.1** Test responsiveness on mobile
+  - [x] Check content box layout on narrow screens
+  - [x] Verify text sizes are readable on phone
+  - [x] Test touch targets (buttons) - increased to 44px min height
+  - [x] Fix background image on iOS (disabled `background-attachment: fixed` on mobile)
 
-- [ ] **2.2** Ensure text remains readable
-  - [ ] Check color contrast ratios meet WCAG AA (4.5:1 for body text)
-  - [ ] Verify line lengths aren't too long/short
-  - [ ] Ensure sufficient spacing between elements
+- [x] **2.2** Ensure text remains readable
+  - [x] Improve color contrast - darkened muted text (#5c5347 → #4a453c)
+  - [x] Line lengths constrained by max-width
+  - [x] Increased button font size and padding
 
 - [x] **2.3** Optimize map image file size for fast loading
   - Before: **36MB**, 10643x4998px
@@ -53,7 +53,7 @@ Redesign the consulting website with a warmer, more personal aesthetic inspired 
     - [x] Compress with quality 75%
     - [x] Test visual quality after compression
 
-- [ ] **2.4** Final commit and deploy
+- [x] **2.4** Final commit and deploy
 
 ---
 
