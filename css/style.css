@@ -106,20 +106,18 @@ p:last-child {
 .hero .title {
     font-size: 1.1rem;
     color: var(--color-text-muted);
-    margin-bottom: 1.5rem;
+    margin-bottom: 0;
 }
 
-.hero .tagline {
-    font-family: var(--font-serif);
-    font-style: italic;
+/* Intro Section */
+.intro {
+    padding: 2.5rem 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.intro p {
     font-size: 1.05rem;
-    max-width: 420px;
-    margin: 0 auto 1rem;
-}
-
-.hero .location {
-    color: var(--color-text-muted);
-    font-size: 0.9rem;
+    line-height: 1.7;
     margin-bottom: 0;
 }
 
@@ -165,11 +163,6 @@ section {
 
 .service-card li:last-child {
     margin-bottom: 0;
-}
-
-/* About Section */
-.about p {
-    max-width: 100%;
 }
 
 /* Contact Section */
@@ -228,10 +221,6 @@ footer {
     }
 
     .hero .title {
-        font-size: 1rem;
-    }
-
-    .hero .tagline {
         font-size: 1rem;
     }
 
