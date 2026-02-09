@@ -85,13 +85,3 @@ git push -u origin main
 # 4. Enable GitHub Pages
 # Settings → Pages → Source: main branch → / (root)
 ```
-
----
-
-## Verification
-
-- [ ] Site loads at `https://USERNAME.github.io/consulting-website`
-- [ ] All sections display correctly
-- [ ] Links work (email mailto:, LinkedIn)
-- [ ] Mobile responsive
-- [ ] Page loads fast (<1s)
